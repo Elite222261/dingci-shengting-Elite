@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定瓷有声 - 聆听定瓷，让古瓷活在当下</title>
+    <meta name="description" content="定瓷有声 - 新文科数字人文项目，数字化活化定瓷非遗，传承宋代定瓷美学">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========== 导航栏 ========== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="16" cy="24" rx="10" ry="3" stroke="#8B6F4E" stroke-width="1" opacity="0.6"/>
+                        <path d="M8 24V18C8 14 11 8 16 8C21 8 24 14 24 18V24" stroke="#8B6F4E" stroke-width="1.2" fill="none" opacity="0.7"/>
+                        <ellipse cx="16" cy="8" rx="5" ry="1.5" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+                        <path d="M10 14C12 13 14 12.5 16 12.5C18 12.5 20 13 22 14" stroke="#8B6F4E" stroke-width="0.6" opacity="0.4"/>
+                        <path d="M9 18C11.5 17 13.5 16.5 16 16.5C18.5 16.5 20.5 17 23 18" stroke="#8B6F4E" stroke-width="0.6" opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="logo-text">定瓷有声</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="culture.html">定瓷文化</a></li>
+                <li><a href="digital.html">数字交互体验</a></li>
+                <li><a href="shop.html">文创商城</a></li>
+                <li><a href="about.html">关于我们</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== 首屏 Hero ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-vessel">
+                <svg viewBox="0 0 280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 定瓷梅瓶剪影 -->
+                    <defs>
+                        <linearGradient id="vesselGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FAF7F0;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#F5F0E6;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#E8ECE4;stop-opacity:1" />
+                        </linearGradient>
+                        <filter id="vesselShadow" x="-20%" y="-10%" width="140%" height="120%">
+                            <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#8B6F4E" flood-opacity="0.15"/>
+                        </filter>
+                    </defs>
+                    <!-- 瓶身 -->
+                    <path d="M140 30 
+                             C155 30 162 38 160 55
+                             C158 75 170 90 195 120
+                             C220 150 230 185 225 220
+                             C220 255 200 280 170 290
+                             L110 290
+                             C80 280 60 255 55 220
+                             C50 185 60 150 85 120
+                             C110 90 122 75 120 55
+                             C118 38 125 30 140 30 Z" 
+                          fill="url(#vesselGrad)" 
+                          stroke="#8B6F4E" 
+                          stroke-width="1" 
+                          opacity="0.85"
+                          filter="url(#vesselShadow)"/>
+                    <!-- 瓶口 -->
+                    <ellipse cx="140" cy="32" rx="22" ry="7" fill="#FAF7F0" stroke="#8B6F4E" stroke-width="1" opacity="0.6"/>
+                    <ellipse cx="140" cy="30" rx="18" ry="5" fill="#E8ECE4" opacity="0.5"/>
+                    <!-- 底部椭圆 -->
+                    <ellipse cx="140" cy="290" rx="60" ry="10" fill="#D4D9CF" opacity="0.4"/>
+                    
+                    <!-- 刻花纹样 - 莲瓣纹 -->
+                    <g opacity="0.25" stroke="#8B6F4E" stroke-width="0.8" fill="none">
+                        <path d="M80 240 Q90 260 100 240"/>
+                        <path d="M100 245 Q110 265 120 245"/>
+                        <path d="M120 248 Q130 268 140 248"/>
+                        <path d="M140 248 Q150 268 160 248"/>
+                        <path d="M160 245 Q170 265 180 245"/>
+                        <path d="M180 240 Q190 260 200 240"/>
+                    </g>
+                    
+                    <!-- 刻花纹样 - 卷草纹 -->
+                    <g opacity="0.2" stroke="#8B6F4E" stroke-width="0.6" fill="none">
+                        <path d="M70 180 Q85 170 100 180 Q115 190 130 180 Q145 170 160 180 Q175 190 190 180 Q205 170 210 180"/>
+                        <path d="M70 185 Q85 195 100 185 Q115 175 130 185 Q145 195 160 185 Q175 175 190 185 Q205 195 210 185"/>
+                    </g>
+                    
+                    <!-- 回纹边 -->
+                    <g opacity="0.2" stroke="#8B6F4E" stroke-width="0.5" fill="none">
+                        <path d="M95 75 h6 v-6 h6 v6 h6 v-6 h6 v6 h6 v-6 h6 v6 h6 v-6 h6 v6 h6 v-6 h6 v6"/>
+                    </g>
+                    
+                    <!-- 高光 -->
+                    <path d="M100 100 Q95 140 100 200" stroke="white" stroke-width="8" opacity="0.3" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <h1 class="hero-title">定瓷有声</h1>
+            <p class="hero-subtitle">聆听定瓷 · 让古瓷活在当下</p>
+            <a href="#intro" class="hero-cta">
+                <span>开启探索之旅</span>
+            </a>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>向下滚动</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== 板块1：定瓷文化简介 ========== -->
+    <section class="section intro-section" id="intro">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-image fade-in">
+                    <div class="intro-image-placeholder">
+                        <svg width="80" height="100" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="85" rx="25" ry="6" stroke="currentColor" stroke-width="1" fill="none"/>
+                            <path d="M20 85 V65 C20 50 28 30 40 25 C52 30 60 50 60 65 V85" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                            <ellipse cx="40" cy="25" rx="12" ry="4" stroke="currentColor" stroke-width="1" fill="none"/>
+                            <path d="M25 50 Q32 47 40 47 Q48 47 55 50" stroke="currentColor" stroke-width="0.5" opacity="0.6"/>
+                            <path d="M23 65 Q31 62 40 62 Q49 62 57 65" stroke="currentColor" stroke-width="0.5" opacity="0.6"/>
+                        </svg>
+                        <span>定瓷白瓷刻花</span>
+                    </div>
+                </div>
+                <div class="intro-text fade-in">
+                    <h2>定瓷 · 宋韵白瓷之冠</h2>
+                    <div class="section-divider" style="margin: 0 0 24px 0;"></div>
+                    <p>
+                        <span class="highlight">定窑</span>，宋代五大名窑之一，以白瓷著称于世，因地处古定州（今河北曲阳）而得名。定瓷始于唐、兴于宋、衰于元，历经千年窑火不熄。
+                    </p>
+                    <p>
+                        其瓷质温润如玉，釉色洁白如象牙，胎薄而轻，声如磬鸣。尤以<b>刻花、划花、印花</b>装饰技法独步天下，纹样典雅精致，线条流畅自如，被誉为"中国白瓷之冠"。
+                    </p>
+                    <p>
+                        2008年，定瓷烧制技艺被列入国家级非物质文化遗产名录。<span class="highlight">定瓷有声</span>项目，以数字人文之法，让千年定瓷重焕新声。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="pattern-scroll-divider"></div>
+
+    <!-- ========== 板块2：数字体验入口 ========== -->
+    <section class="section digital-entry-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">数字交互体验</h2>
+                <p class="section-subtitle">DIGITAL EXPERIENCE</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="digital-cards">
+                <a href="digital.html#audio" class="digital-card fade-in">
+                    <div class="digital-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.2">
+                            <path d="M16 4 L16 28" stroke-linecap="round"/>
+                            <path d="M10 8 L10 24" stroke-linecap="round" opacity="0.6"/>
+                            <path d="M22 8 L22 24" stroke-linecap="round" opacity="0.6"/>
+                            <path d="M6 12 L6 20" stroke-linecap="round" opacity="0.4"/>
+                            <path d="M26 12 L26 20" stroke-linecap="round" opacity="0.4"/>
+                            <circle cx="16" cy="16" r="3" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                    </div>
+                    <h3>有声讲解</h3>
+                    <p>聆听定瓷的千年故事，专业讲解员娓娓道来，让每一件瓷器都能"开口说话"</p>
+                    <span class="digital-card-link">立即聆听</span>
+                </a>
+                <a href="digital.html#patterns" class="digital-card fade-in" style="transition-delay: 0.1s;">
+                    <div class="digital-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.2">
+                            <ellipse cx="16" cy="24" rx="10" ry="3"/>
+                            <path d="M8 24 V16 C8 12 11 6 16 6 C21 6 24 12 24 16 V24"/>
+                            <ellipse cx="16" cy="6" rx="5" ry="1.5"/>
+                            <path d="M10 12 Q13 11 16 11 Q19 11 22 12" opacity="0.6"/>
+                            <path d="M9 16 Q12.5 15 16 15 Q19.5 15 23 16" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <h3>纹样观赏</h3>
+                    <p>高清数字呈现定瓷经典纹样，卷草纹、莲瓣纹、回纹，放大细节感受匠心之美</p>
+                    <span class="digital-card-link">观赏纹样</span>
+                </a>
+                <a href="digital.html#miniprogram" class="digital-card fade-in" style="transition-delay: 0.2s;">
+                    <div class="digital-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.2">
+                            <rect x="6" y="4" width="20" height="24" rx="3"/>
+                            <circle cx="16" cy="24" r="1.5" fill="currentColor"/>
+                            <path d="M11 10 Q16 14 21 10" opacity="0.7"/>
+                            <path d="M11 14 Q16 18 21 14" opacity="0.7"/>
+                            <path d="M11 18 Q13.5 20 16 18" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <h3>小程序互动</h3>
+                    <p>微信小程序端体验定瓷DIY、虚拟漫剧、文人IP互动，让传统文化触手可及</p>
+                    <span class="digital-card-link">扫码体验</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 板块3：文创产品精选 ========== -->
+    <section class="section featured-products">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">文创精选</h2>
+                <p class="section-subtitle">SELECTED PRODUCTS</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="products-grid">
+                <!-- 商品1 -->
+                <a href="shop.html" class="product-card fade-in">
+                    <span class="product-badge hot">爆款</span>
+                    <div class="product-image">
+                        <img src="assets/product-xiangcha.jpg" alt="定瓷纹样盲盒香插" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">定瓷纹样盲盒香插</h4>
+                        <p class="product-desc">盲盒形式，多款传统定瓷纹样香插摆件，每款皆有惊喜</p>
+                        <div class="product-price"><span class="unit">¥</span>69.00</div>
+                    </div>
+                </a>
+                <!-- 商品2 -->
+                <a href="shop.html" class="product-card fade-in" style="transition-delay: 0.1s;">
+                    <span class="product-badge new">新品</span>
+                    <div class="product-image">
+                        <img src="assets/product-diy.jpg" alt="石塑黏土手作包" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">石塑黏土手作包</h4>
+                        <p class="product-desc">含石塑黏土、仿定瓷教程视频、颜料、亮釉，亲手体验制瓷乐趣</p>
+                        <div class="product-price"><span class="unit">¥</span>39.90</div>
+                    </div>
+                </a>
+                <!-- 商品3 -->
+                <a href="shop.html" class="product-card fade-in" style="transition-delay: 0.2s;">
+                    <div class="product-image">
+                        <img src="assets/product-teacup.jpg" alt="定瓷莲瓣纹茶杯" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">定瓷莲瓣纹茶杯</h4>
+                        <p class="product-desc">复刻宋代莲瓣纹样，象牙白釉色，品茗雅器</p>
+                        <div class="product-price"><span class="unit">¥</span>128.00</div>
+                    </div>
+                </a>
+            </div>
+            <div class="more-products fade-in">
+                <a href="shop.html">浏览全部商品 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 板块4：项目介绍 ========== -->
+    <section class="section project-section">
+        <div class="container">
+            <div class="project-content fade-in">
+                <h2>新文科 · 数字人文项目</h2>
+                <div class="section-divider"></div>
+                <p style="margin-top: 30px;">
+                    "定瓷有声"是一个新文科背景下的数字人文创新项目，致力于将国家级非物质文化遗产——定瓷烧制技艺，
+                    以数字化手段进行活化与传承。
+                </p>
+                <p>
+                    项目融合<b>数字音频、虚拟交互、文创实体</b>三大维度，通过有声讲解让瓷器"说话"，
+                    通过数字交互让纹样"可触"，通过手作文创让技艺"可学"。
+                </p>
+                <p>
+                    我们相信，传统文化不应只沉睡在博物馆中，而应活在当下，走进每一个人的生活。
+                </p>
+                <div class="project-tags">
+                    <span class="project-tag">新文科</span>
+                    <span class="project-tag">数字人文</span>
+                    <span class="project-tag">非遗活化</span>
+                    <span class="project-tag">定瓷文化</span>
+                    <span class="project-tag">文创设计</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 页脚 ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>定瓷有声</h3>
+                    <p>聆听定瓷，让古瓷活在当下<br>
+                    新文科数字人文项目 · 传统文化数字化传承</p>
+                </div>
+                <div class="footer-col">
+                    <h4>探索</h4>
+                    <ul>
+                        <li><a href="culture.html">定瓷文化</a></li>
+                        <li><a href="digital.html">数字体验</a></li>
+                        <li><a href="shop.html">文创商城</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>联系</h4>
+                    <ul>
+                        <li><a href="#">合作洽谈</a></li>
+                        <li><a href="#">意见反馈</a></li>
+                        <li><a href="#">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>关注</h4>
+                    <ul>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">小程序</a></li>
+                        <li><a href="#">官方微博</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 定瓷有声 Dingci YouSheng · 新文科数字人文项目 · 仅供学习展示使用</p>
+                <p style="margin-top: 8px; font-size: 12px; opacity: 0.6; letter-spacing: 0.1em;">Made by Elite</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
