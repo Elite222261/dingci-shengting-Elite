@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文创商城 - 定瓷有声</title>
+    <meta name="description" content="定瓷主题文创产品，手作包、盲盒、瓷器周边">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="16" cy="24" rx="10" ry="3" stroke="#8B6F4E" stroke-width="1" opacity="0.6"/>
+                        <path d="M8 24V18C8 14 11 8 16 8C21 8 24 14 24 18V24" stroke="#8B6F4E" stroke-width="1.2" fill="none" opacity="0.7"/>
+                        <ellipse cx="16" cy="8" rx="5" ry="1.5" stroke="#8B6F4E" stroke-width="1" opacity="0.5"/>
+                        <path d="M10 14C12 13 14 12.5 16 12.5C18 12.5 20 13 22 14" stroke="#8B6F4E" stroke-width="0.6" opacity="0.4"/>
+                        <path d="M9 18C11.5 17 13.5 16.5 16 16.5C18.5 16.5 20.5 17 23 18" stroke="#8B6F4E" stroke-width="0.6" opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="logo-text">定瓷有声</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="culture.html">定瓷文化</a></li>
+                <li><a href="digital.html">数字交互体验</a></li>
+                <li><a href="shop.html" class="active">文创商城</a></li>
+                <li><a href="about.html">关于我们</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 页面Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">文创商城</h1>
+            <p class="page-hero-subtitle">CULTURAL & CREATIVE SHOP</p>
+        </div>
+    </section>
+
+    <!-- 面包屑 -->
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">首页</a>
+            <span>/</span>
+            <span>文创商城</span>
+        </div>
+    </div>
+
+    <!-- 商城主体 -->
+    <section class="shop-header">
+        <div class="container">
+            <p style="font-family: var(--font-serif); font-size: 18px; color: var(--deep-tea); letter-spacing: 0.1em; margin-bottom: 8px;">匠心手作 · 传承之美</p>
+            <p style="font-size: 14px; color: var(--light-ink); max-width: 600px; margin: 0 auto; line-height: 1.8;">
+                每一件文创产品，都是定瓷文化的当代诠释<br>
+                将千年雅韵融入日常，让传统触手可及
+            </p>
+        </div>
+    </section>
+
+    <!-- 筛选 -->
+    <div class="container">
+        <div class="shop-filter">
+            <button class="filter-btn active">全部</button>
+            <button class="filter-btn">盲盒系列</button>
+            <button class="filter-btn">手作DIY</button>
+            <button class="filter-btn">茶器香道</button>
+            <button class="filter-btn">文具周边</button>
+        </div>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="container">
+        <div class="shop-products">
+            <!-- 商品1 -->
+            <div class="product-card fade-in">
+                <span class="product-badge hot">爆款</span>
+                <div class="product-image">
+                    <img src="assets/product-xiangcha.jpg" alt="定瓷纹样盲盒香插" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定瓷纹样盲盒香插</h4>
+                    <p class="product-desc">盲盒形式，多款传统定瓷纹样香插摆件，卷草纹/莲瓣纹/回纹随机一款，惊喜连连</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>69.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品2 -->
+            <div class="product-card fade-in" style="transition-delay: 0.05s;">
+                <span class="product-badge new">新品</span>
+                <div class="product-image">
+                    <img src="assets/product-diy.jpg" alt="石塑黏土手作包" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">石塑黏土手作包</h4>
+                    <p class="product-desc">含石塑粘土、仿定瓷制作教程视频、基础上色颜料、亮釉，亲手体验制瓷乐趣</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>39.90</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品3 -->
+            <div class="product-card fade-in" style="transition-delay: 0.1s;">
+                <div class="product-image">
+                    <img src="assets/product-teacup.jpg" alt="定瓷莲瓣纹茶杯" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定瓷莲瓣纹茶杯</h4>
+                    <p class="product-desc">复刻宋代莲瓣纹样，象牙白釉色，品茗雅器，功夫茶杯单只</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>128.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品4 -->
+            <div class="product-card fade-in" style="transition-delay: 0.15s;">
+                <span class="product-badge hot">热销</span>
+                <div class="product-image">
+                    <img src="assets/product-xianglu.jpg" alt="定窑刻花香炉" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定窑刻花香炉</h4>
+                    <p class="product-desc">仿宋定窑刻花香炉，缠枝莲纹饰，雅室焚香之器</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>198.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品5 -->
+            <div class="product-card fade-in" style="transition-delay: 0.2s;">
+                <div class="product-image">
+                    <img src="assets/product-notebook.jpg" alt="定瓷纹样笔记本" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定瓷纹样笔记本</h4>
+                    <p class="product-desc">封面压印定瓷卷草纹，米白内页书写顺滑，文艺伴手礼</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>35.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品6 -->
+            <div class="product-card fade-in" style="transition-delay: 0.25s;">
+                <span class="product-badge new">限量</span>
+                <div class="product-image">
+                    <img src="assets/product-shuqian.jpg" alt="宋韵纹样书签套装" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">宋韵纹样书签套装</h4>
+                    <p class="product-desc">金属材质仿定瓷质感，四枚入（卷草/莲瓣/回纹/缠枝），读书雅物</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>58.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品7 -->
+            <div class="product-card fade-in" style="transition-delay: 0.3s;">
+                <div class="product-image">
+                    <img src="assets/product-zhihu.jpg" alt="定窑刻花执壶摆件" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定窑刻花执壶摆件</h4>
+                    <p class="product-desc">迷你复刻宋代定窑执壶造型，刻花装饰，案头陈设雅玩</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>268.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品8 -->
+            <div class="product-card fade-in" style="transition-delay: 0.35s;">
+                <div class="product-image">
+                    <img src="assets/product-bingxiangtie.jpg" alt="定瓷纹样冰箱贴" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定瓷纹样冰箱贴</h4>
+                    <p class="product-desc">陶瓷质感冰箱贴，六款定瓷经典纹样，装饰收藏两相宜</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>49.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品9 -->
+            <div class="product-card fade-in" style="transition-delay: 0.4s;">
+                <span class="product-badge">组合</span>
+                <div class="product-image">
+                    <img src="assets/product-giftbox.jpg" alt="定瓷雅韵礼盒" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="product-info">
+                    <h4 class="product-name">定瓷雅韵礼盒</h4>
+                    <p class="product-desc">莲瓣纹茶杯+刻花香插+纹样书签，送礼佳品，雅致礼盒装</p>
+                    <div class="product-footer">
+                        <div class="product-price"><span class="unit">¥</span>228.00</div>
+                        <button class="add-cart-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 预留补充位置提示 -->
+    <div class="container" style="text-align: center; padding-bottom: 80px;">
+        <div class="pattern-scroll-divider"></div>
+        <p style="font-size: 13px; color: var(--light-ink); letter-spacing: 0.1em; font-family: var(--font-serif);">
+            更多产品正在筹备中 · 敬请期待
+        </p>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>定瓷有声</h3>
+                    <p>聆听定瓷，让古瓷活在当下<br>
+                    新文科数字人文项目 · 传统文化数字化传承</p>
+                </div>
+                <div class="footer-col">
+                    <h4>探索</h4>
+                    <ul>
+                        <li><a href="culture.html">定瓷文化</a></li>
+                        <li><a href="digital.html">数字体验</a></li>
+                        <li><a href="shop.html">文创商城</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>联系</h4>
+                    <ul>
+                        <li><a href="#">合作洽谈</a></li>
+                        <li><a href="#">意见反馈</a></li>
+                        <li><a href="#">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>关注</h4>
+                    <ul>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">小程序</a></li>
+                        <li><a href="#">官方微博</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 定瓷有声 Dingci YouSheng · 新文科数字人文项目 · 仅供学习展示使用</p>
+                <p style="margin-top: 8px; font-size: 12px; opacity: 0.6; letter-spacing: 0.1em;">Made by Elite</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
